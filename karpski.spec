@@ -1,6 +1,6 @@
 %define	version	0.101
 %define	name	karpski
-%define release %mkrel 14
+%define release %mkrel 15
 
 Summary:	A free ethernet protocol analyzer / sniffer
 Name:		%{name}
@@ -13,7 +13,7 @@ Patch0:		karpski.patch.bz2
 Patch1:		karpski-bob.patch.bz2
 Patch2:		karpski-green.patch.bz2
 URL:		http://mojo.calyx.net/~btx/karpski.html
-BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  libpcap-devel
 BuildRequires:  gtk-devel
 
