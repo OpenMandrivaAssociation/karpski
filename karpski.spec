@@ -1,6 +1,6 @@
 %define	version	0.101
 %define	name	karpski
-%define release %mkrel 15
+%define release %mkrel 16
 
 Summary:	A free ethernet protocol analyzer / sniffer
 Name:		%{name}
