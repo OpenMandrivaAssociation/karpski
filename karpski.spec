@@ -66,3 +66,76 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_datadir}/karpski/datfiles
 %dir %{_datadir}/karpski/pixmaps 
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.101-17mdv2011.0
++ Revision: 619878
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 11 2009 Thierry Vignaud <tv@mandriva.org> 0.101-16mdv2010.0
++ Revision: 438069
+- rebuild
+
+* Wed Oct 29 2008 Oden Eriksson <oeriksson@mandriva.com> 0.101-15mdv2009.1
++ Revision: 298266
+- rebuilt against libpcap-1.0.0
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 0.101-14mdv2009.0
++ Revision: 247503
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.101-12mdv2008.1
++ Revision: 140850
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import karpski
+
+
+* Fri Dec 23 2005 Nicolas Lécureuil <neoclust@mandriva.org> 0.101-12mdk
+- Fix BuildRequires
+- use mkrel
+
+* Wed Jul 13 2005 Oden Eriksson <oeriksson@mandriva.com> 0.101-11mdk
+- rebuilt against new libpcap-0.9.1 (aka. a "play safe" rebuild)
+
+* Tue Apr 26 2005 Lenny Cartier <lenny@mandriva.com> 0.101-10mdk
+- rebuild
+
+* Mon Feb 23 2004 Lenny Cartier <lenny@mandrakesoft.com> 0.101-9mdk
+- rebuild
+
+* Tue Jan 28 2003 Lenny Cartier <lenny@mandrakesoft.com> 0.101-8mdk
+- rebuild
+
+* Fri Nov 22 2002 Olivier Thauvin <thauvin@aerov.jussieu.fr> 0.101-7mdk
+- BuildRequires libpcap-devel
+
+* Thu Aug 29 2002  Lenny Cartier <lenny@mandrakesoft.com> 0.101-6mdk
+- rebuild
+
+* Wed Aug 08 2001 Lenny Cartier <lenny@mandrakesoft.com> 0.101-5mdk
+- rebuild
+
+* Fri Jan 12 2001 Lenny Cartier <lenny@mandrakesoft.com> 0.101-4mdk
+- rebuild
+
+* Thu Sep 07 2000 Lenny Cartier <lenny@mandrakesoft.com> 0.101-3mdk
+- BM
+- macros
+* Fri Apr 28 2000 Lenny Cartier <lenny@mandrakesoft.com> 0.101-2mdk
+- fix group and files section
+* Thu Mar 02 2000 Lenny Cartier <lenny@mandrakesoft.com>
+- mandrake build
+* Thu May 6 1999 David Green <green@couchpotato.net>
+- Replaced scroll bars - they had disappeared due to the two functions disappearing as explained below.
+* Wed Mar 10 1999 Bert de Bruijn <bob@ccl.kuleuven.ac.be>
+- Upgrade to version 0.101
+- added patch to remove two lines that contained a function that doesn't
+  exist in my gtk version 1.2. It compiles and runs without it, so ...
+- modified specfile to use /usr/share/karpski as datadir.
+- used "make install-strip" to get a stripped binary (binary rpm size / 4)
+* Mon Aug 23 1998 Hugo van der Kooij <hvdkooij@caiw.nl>
+- Started making the RPM.

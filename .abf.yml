@@ -1,2 +1,5 @@
 sources:
-  "karpski-0.101.tar.bz2:"	50e2a61f643ac77a6cb0c003766009a8aff51e03
+  "karpski-0.101.tar.bz2": 50e2a61f643ac77a6cb0c003766009a8aff51e03
+  "karpski-bob.patch.bz2": c5e0d6a349851cc8847d6483e61a883eb2406628
+  "karpski-green.patch.bz2": 669b40e011ff421f1cc5932a9d77d48c9abced8d
+  "karpski.patch.bz2": 1e72f3acdd51d00d73bd05c5d3249f946ca0874a
