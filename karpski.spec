@@ -12,7 +12,7 @@ Source:		%{name}-%{version}.tar.bz2
 Patch0:		karpski.patch.bz2
 Patch1:		karpski-bob.patch.bz2
 Patch2:		karpski-green.patch.bz2
-URL:		http://mojo.calyx.net/~btx/karpski.html
+URL:		https://mojo.calyx.net/~btx/karpski.html
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  libpcap-devel
 BuildRequires:  gtk-devel
