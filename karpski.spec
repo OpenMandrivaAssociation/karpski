@@ -14,6 +14,11 @@ Patch1:		karpski-bob.patch.bz2
 Patch2:		karpski-green.patch.bz2
 URL:		https://mojo.calyx.net/~btx/karpski.html
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  libpcap-devel
 BuildRequires:  gtk-devel
 
