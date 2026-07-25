@@ -1,6 +1,6 @@
 %define	version	0.101
 %define	name	karpski
-%define release %mkrel 17
+%define release 18
 
 Summary:	A free ethernet protocol analyzer / sniffer
 Name:		%{name}
@@ -99,7 +99,7 @@ rm -rf $RPM_BUILD_ROOT
     - import karpski
 
 
-* Fri Dec 23 2005 Nicolas Lécureuil <neoclust@mandriva.org> 0.101-12mdk
+* Fri Dec 23 2005 Nicolas Lï¿½cureuil <neoclust@mandriva.org> 0.101-12mdk
 - Fix BuildRequires
 - use mkrel
 
